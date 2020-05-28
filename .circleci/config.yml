@@ -18,9 +18,9 @@ workflows:
     jobs:
       - test_1
       - coverage
-In the above example, the commit workflow has no triggers key and will run on every git push. The nightly workflow has a triggers key and will run on the specified schedule.
+#In the above example, the commit workflow has no triggers key and will run on every git push. The nightly workflow has a triggers key and will run on the specified schedule.
 
-Specifying a Valid
+#Specifying a Valid
 
 jobs:
   #build:
